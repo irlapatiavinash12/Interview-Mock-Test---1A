@@ -1,0 +1,68 @@
+.main-container {
+  background-color: #f5d0fe;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  background-color: #ffffff;
+  height: 200px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.title-text {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: 400;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-field-styling {
+  background-color: transparent;
+  border: 1px solid #cbd2d9;
+  color: #cbd2d9;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+}
+
+.printable-styling {
+  color: #cbd2d9;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.button-styling {
+  background-color: #d946ef;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-left: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.edit-styling {
+  background-color: #d946ef;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 10px;
+}
